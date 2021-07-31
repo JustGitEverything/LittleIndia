@@ -1,0 +1,94 @@
+h2 {
+  padding: 0 0 3%;
+  color: #ed8524;
+  font-size: 2rem;
+}
+
+p {
+  color: #8f898f;
+}
+
+/* Top Image */
+#top {
+  text-align: center;
+}
+
+.image-text {
+  position: absolute;
+  width: 25%;
+  left: 37%;
+  z-index: 1;
+  padding-top: 20px;
+}
+
+.img-div {
+  position: relative;
+}
+
+/* Middle */
+#middle {
+  padding: 10%;
+}
+
+.heading {
+  font-family: serif;
+  font-size: 10vw;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.below-heading {
+  padding-top: 9%;
+}
+
+@media (max-width:765px) {
+  .info-heading {
+    margin-top: 50px;
+  }
+}
+
+/* Speisekarte */
+#speisekarte {
+  padding: 0 10%;
+}
+
+#speisekarte h1 {
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+#speisekarte h3 {
+  color: #ed8524;
+}
+
+.vorspeise-img {
+  width: 100%;
+}
+
+.vorspeise-text {
+  padding: 7% 10% 10% 0;
+}
+
+/* Bottom */
+#bottom {
+  padding: 10% 5%;
+}
+
+.impressum {
+  padding: 3%;
+}
+
+.vorspeise {
+  padding-top: 15%;
+  padding-left: 5%;
+}
+
+.salate {
+  padding: 0 5%;
+}
+
+/* Impressum */
+
+.impressum {
+  text-decoration: none;
+}
