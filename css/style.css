@@ -8,6 +8,11 @@ p {
   color: #8f898f;
 }
 
+.button-download {
+  color: #ed8524;
+  margin-left: 5%;
+}
+
 /* Top Image */
 #top {
   text-align: center;
