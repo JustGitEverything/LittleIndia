@@ -19,6 +19,7 @@ p {
 #nav-bar a {
   color: #ed8524;
   height: 10%;
+  font-size: 1.3rem;
 }
 
 #nav-bar a:hover {
