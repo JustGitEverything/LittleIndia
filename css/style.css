@@ -1,16 +1,42 @@
 h2 {
   padding: 0 0 3%;
   color: #ed8524;
-  font-size: 2rem;
+  font-size: 250%;
 }
 
 p {
-  color: #8f898f;
+  color: #8f858f;
+  font-size: 150%;
 }
 
 .button-download {
   color: #ed8524;
   margin-left: 5%;
+}
+
+/* Top */
+
+#nav-bar a {
+  color: #ed8524;
+  height: 10%;
+}
+
+#nav-bar a:hover {
+  color: #8f898f;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  margin-right: 3%;
+}
+
+.navbar {
+  background-color: #FDE49C;
+}
+
+.navbar-toggler-icon {
+  width: 4rem;
+  height: 4rem;
 }
 
 /* Top Image */
@@ -52,9 +78,29 @@ p {
   }
 }
 
+.kontakt {
+  margin-bottom: 9%;
+  padding-right: 5%;
+}
+
+.kontakt p {
+  color: #40514E;
+}
+
+@media (max-width:765px) {
+  .info {
+    text-align: center;
+  }
+}
+
 /* Speisekarte */
 #speisekarte {
-  padding: 0 10%;
+  padding: 5% 10%;
+  background-color: #FDE49C;
+}
+
+#speisekarte p {
+  color: #435560;
 }
 
 #speisekarte h1 {
@@ -64,6 +110,8 @@ p {
 
 #speisekarte h3 {
   color: #ed8524;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .vorspeise-img {
@@ -75,24 +123,39 @@ p {
 }
 
 /* Bottom */
+
 #bottom {
   padding: 10% 5%;
 }
 
 .impressum {
+  padding: 5%;
+}
+
+/* Vorspeisen */
+#vorspeisen {
+  padding: 0 7% 0 7%;
 }
 
 .vorspeise {
-  padding-top: 15%;
-  padding-left: 5%;
+  padding-top: 5%;
+  padding-left: 2%;
 }
 
-.salate {
-  padding: 0 3%;
+.clmn {
+  padding: 3%;
+}
+
+#vorspeisen strong {
+  color: black;
+}
+
+#vorspeisen h3 {
+  font-size: 2.5rem;
+  padding-bottom: 2%;
 }
 
 /* Impressum */
-
 .impressum {
   text-decoration: none;
 }
